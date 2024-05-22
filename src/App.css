@@ -2,9 +2,13 @@ section{
   width: 100%;
   height: 100vh;
   background-image: url('bg_2.png');
+  background-repeat: no-repeat;
+  object-fit: contain;
   padding: 20px;
   display:flex ;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 ul li {
@@ -29,12 +33,95 @@ button{
 }
 .text{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 h1{
-  padding-top: 150px;
-  font-size: 40px;
+  padding-top: 55px;
+  font-size: 70px;
+  text-align: center;
   color: white;
   font-family: "Indie Flower";
+}
+.form{
+  border: 1px solid yellow;
+  background-color: yellow;
+  width: 70%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px ;
+ 
+  gap: 20px;
+}
+.form input{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.book{
+  padding: 15px 20px;
+}
+.chef{
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+
+ 
+}
+
+.qutu{
+  width: 70%;
+  height: 700px;
+  gap: 10px;
+  display: flex;
+}
+.foto{
+  background-image: url('sekil.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 70%;
+  height: 700px;
+  
+}
+.txt{
+  width: 70%;
+  height:700px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt{
+  width: 50%;
+}
+.txt span {
+  font-size: 25px;
+  color: #8B8B92;
+}
+.txt h2 p{
+  font-size: 16px;
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: C;
+}
+.sections{
+  width: 50%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  border: 1px solid black;
+
 }
