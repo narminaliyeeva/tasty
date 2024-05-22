@@ -1,0 +1,40 @@
+section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('bg_2.png');
+  padding: 20px;
+  display:flex ;
+  flex-direction: column;
+
+}
+ul li {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 15px;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+ background-color: transparent;
+}
+button{
+  padding: 10px 25px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  padding-top: 150px;
+  font-size: 40px;
+  color: white;
+  font-family: "Indie Flower";
+}
